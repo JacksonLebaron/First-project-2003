@@ -1,0 +1,20 @@
+/*Common Styles*/
+body {
+   margin:1px; 
+   /* font-family: 'Anton', sans-serif; */
+font-family: 'Roboto', sans-serif;
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: fantasy , serif;
+}
+
+
+
+

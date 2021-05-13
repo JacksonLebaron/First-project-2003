@@ -1,0 +1,22 @@
+/* Page container styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .page-container > .content-wrapper {
+    width: 1000px;
+ }
+ 
+ .page-container > .content-wrapper > #stacked {
+    width: 300px;
+    margin: 25px 25px 25px 15px;
+    float: left;
+    border: 2px solid darkslategrey;
+ }
+ 
+ .page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 32px; 
+ }
+ 

@@ -1,0 +1,88 @@
+ /* Hero section styles  */
+.hero-section {
+    background-image: url(../images/FancyVeerCorbisdrywall-5c116ed7c9e77c00019c80ec.jpg);
+    padding: 200px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    background-color:none;
+    color:purple;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+color:purple;
+background-color: none;
+width: 290px;
+border-radius: 2px;
+margin-top: 15px;
+}
+
+
+
+/*Features section style */
+.features-section {
+height: 400px;
+background-color:#11122b;
+color: purple;
+border-top: 10px solid tomato;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: fantasy sans-serif;
+box-shadow: inset 0px -26px 79px -8px rgba(182, 97, 221, 0.377);
+border-bottom: 5px solid tomato;
+/* background-image: url(../images/drywallbackground.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display:flex;
+    justify-content: centerjus;
+justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+padding: 20px;
+margin: 12px;
+text-align: center;
+border-bottom: 5px solid transparent;
+border-radius: 10px;
+transition: 3s;
+}
+
+.features-section > .columns-wrapper > .column :hover {
+    border-bottom: 5px solid purple;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+    
+.features-section > .columns-wrapper > .column :nth-child(2) :hover {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 3s;
+}
+
+
+.features-section > .columns-wrapper > .column :nth-child(2) :hover {
+  letter-spacing: 1px;
+}
+
+    
+.features-section > .columns-wrapper > .column :nth-child(3) {
+   letter-spacing: 2px;
+}
+
+
+
